@@ -13,7 +13,8 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = 'https://yummy-horse-double.glitch.me/tasks';
+  private apiUrl =
+    'https://json-server-angular-task-tracker-milos.glitch.me/tasks';
 
   constructor(private http: HttpClient) {}
 
